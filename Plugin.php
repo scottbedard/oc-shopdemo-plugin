@@ -40,6 +40,6 @@ class Plugin extends PluginBase
      */
     public function registerSchedule($schedule)
     {
-        $schedule->command('shopdemo:reset')->everyMinute();
+        $schedule->command('shopdemo:reset')->everyThirtyMinutes();
     }
 }
